@@ -1,0 +1,31 @@
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.block {
+    max-width: 50em;
+    display: block;
+}
+
+button {
+    width: 125px;
+    
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.introCard {
+    width: 50%;
+}
+
+
+
+
