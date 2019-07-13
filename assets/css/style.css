@@ -1,5 +1,6 @@
 body {
     line-height: 1.5em;
+    font-size: 21px;
 }
 
 #logo {
@@ -22,12 +23,34 @@ button {
     
 }
 
-h3 {
-    text-decoration: underline;
+h1 {
+   
 }
 
 .introCard {
     width: 50%;
+}
+
+#mike {
+    border-radius: 25%;
+    height: 25%;
+    width: 25%;
+}
+
+.about {
+    max-width: 30em;
+}
+
+.larger {
+    max-width: 25em;
+}
+
+.projectImg {
+    max-height: 340px;
+}
+
+.link {
+    color: black;
 }
 
 
