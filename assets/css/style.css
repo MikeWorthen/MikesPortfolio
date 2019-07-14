@@ -18,13 +18,13 @@ body {
     display: block;
 }
 
+.link {
+    color: black;
+}
+
 button {
     width: 125px;
     
-}
-
-h1 {
-   
 }
 
 .introCard {
@@ -42,16 +42,70 @@ h1 {
 }
 
 .larger {
-    max-width: 25em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
 }
 
 .projectImg {
-    max-height: 340px;
+    width: 100%;
+    height: auto;
+    border-radius: 5% 5% 0 0;
+    
 }
 
-.link {
+i:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+}
+
+
+.btn:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+}
+
+.nav-link:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
     color: black;
 }
+
+
+@keyframes pulse {
+    0% { transform: scale(1.1); }
+    50% { transform: scale(1.2)};
+}
+
+.centered {
+    max-height: 70px;
+    margin-top: 25%;
+  }
+
+  .parent-container {
+    display: flex;
+ }
+
+ .container1 {
+     width: 25%;
+ }
+
+ .container2 {
+     width: 75%;
+ }
+
+ .container3 {
+     width: 25%;
+     height: 25%;
+ }
+
+ .flex-column {
+     margin-left: 125px;
+ }
+
+ .nav-link {
+     color: black;
+ }
+
 
 
 
