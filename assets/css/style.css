@@ -27,9 +27,14 @@ button {
     
 }
 
-.introCard {
-    width: 50%;
+.btn {
+    font-size: 20px;
+    font-weight: bold;
 }
+
+/* .introCard {
+    width: 75%;
+} */
 
 #mike {
     border-radius: 25%;
@@ -47,12 +52,11 @@ button {
     border-radius: 5%;
 }
 
-.projectImg {
+/* .projectImg {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5% 5% 0 0;
-    
-}
+} */
 
 i:hover {
     animation: pulse 1s infinite;
@@ -82,16 +86,16 @@ i:hover {
     margin-top: 25%;
   }
 
-  .parent-container {
-    display: flex;
+  .container {
+    /* display: flex; */
  }
 
  .container1 {
-     width: 25%;
+     width: 35%;
  }
 
  .container2 {
-     width: 75%;
+     width: 85%;
  }
 
  .container3 {
@@ -100,7 +104,7 @@ i:hover {
  }
 
  .flex-column {
-     margin-left: 125px;
+     
  }
 
  .nav-link {
@@ -113,6 +117,13 @@ i:hover {
      align-items: center;
      justify-content: center;     
  }
+
+ .card-body {
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+
 
 
 
