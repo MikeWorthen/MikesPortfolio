@@ -86,10 +86,6 @@ i:hover {
     margin-top: 25%;
   }
 
-  .container {
-    /* display: flex; */
- }
-
  .container1 {
      width: 35%;
  }
@@ -103,16 +99,10 @@ i:hover {
      height: 25%;
  }
 
- .flex-column {
-     
- }
-
  .nav-link {
     color: black;
- 
-    
  }
-
+ 
  .card-body {
      font-size: 24px;
      font-weight: bold;
