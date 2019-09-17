@@ -77,8 +77,8 @@ i:hover {
 
 
 @keyframes pulse {
-    0% { transform: scale(1.1); }
-    50% { transform: scale(1.2)};
+    0% { transform: scale(1.0); }
+    50% { transform: scale(1.1)};
 }
 
 .centered {
@@ -100,20 +100,15 @@ i:hover {
  }
 
  .nav-link {
-     color: black;
+    color: black;
  }
-
- .footer {
-     height: 100px;
-     display: flex;
-     align-items: center;
-     justify-content: center;     
- }
-
+ 
  .card-body {
      font-size: 24px;
      font-weight: bold;
  }
+
+ /** Navigation **/
 
 
 
