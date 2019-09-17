@@ -86,10 +86,6 @@ i:hover {
     margin-top: 25%;
   }
 
-  .container {
-    /* display: flex; */
- }
-
  .container1 {
      width: 35%;
  }
@@ -101,10 +97,6 @@ i:hover {
  .container3 {
      width: 25%;
      height: 25%;
- }
-
- .flex-column {
-     
  }
 
  .nav-link {
