@@ -1,0 +1,60 @@
+/* .circle {
+    height: 25%;
+    width: 25%;
+} */
+
+/* body {
+    background: url('../images/NY-City.jpg') no-repeat center;
+} */
+
+body {
+    background-color: transparent;
+    color: black;
+}
+.container {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.container-fluid {
+    color: black;
+}
+
+.parallax {
+    background: url('../images/NY-City.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+    color: black;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin: 8px 0 0 40px;
+}
+
+.nav-center {
+    background-color: white;
+}
+
+.images {
+    height: 350px;
+}
+
+
+
