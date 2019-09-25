@@ -12,7 +12,7 @@ body {
     color: black;
 }
 .container {
-    /* max-width: 960px; */
+    max-width: 960px;
     margin: 0 auto;
     background: white;
     font-size: 24px;
@@ -24,10 +24,37 @@ body {
 }
 
 .parallax {
-    background: url('../images/NY-City.jpg') no-repeat center;
+    background: url('../images/forest.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    height: 875px;
+}
+
+.name {
+    padding-top: 200px;
+    color: black;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.headline {
+    box-shadow: none! important;
+    padding-top: 175px;
+}
+
+.me {
+    padding-bottom: 25px;
+    font-size: 64px;
+}
+
+.icon {
+    color: black;
+    margin: 15px;
+}
+
+nav {
+    box-shadow: none!  important;
 }
 
 nav.nav-center ul {
@@ -53,8 +80,7 @@ nav.nav-center ul li a {
 }
 
 .images {
-    height: 250xpx;
-
+    height: 250px;
 }
 
 
