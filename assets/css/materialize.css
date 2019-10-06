@@ -13,12 +13,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .container-about {
-    max-width: 100%;
-    margin: 0;
+    /* max-width: 100%;
+    margin: 0; */
     background-color: rgba(255, 255, 255, 0.808);
     font-size: 24px;
     padding: 50px;
-    height: 1025px;
+    margin: auto;
+    width: 100%;
 }
 
 .aboutMe {
@@ -35,8 +36,8 @@ body {
 .main {
     padding-left: 125px;
     padding-right: 125px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .fab1 {
@@ -45,7 +46,7 @@ body {
 
 .projects {
     background-color: transparent;
-    height: 975px;
+    height: 845px;
     padding-top: 15vh;
 }
 
@@ -54,8 +55,11 @@ body {
     background: url('../images/forest.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 975px;
-    
+    height: 1000px;
+}
+
+.span1 {
+    margin-bottom: 100px;
 }
 
 .parallax-2 {
@@ -64,7 +68,6 @@ body {
     background-attachment: fixed;
     height: 100%;
 }
-
 .name {
     padding-top: 200px;
     color: black;
@@ -80,7 +83,7 @@ body {
 
 .me {
     padding-bottom: 25px;
-    font-size: 96px;
+    font-size: 80px;
 }
 
 h1 {
