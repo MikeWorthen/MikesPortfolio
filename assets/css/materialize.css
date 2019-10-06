@@ -10,39 +10,42 @@
 body {
     background-color: transparent;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 .container-about {
     max-width: 100%;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.808);
     font-size: 24px;
     padding: 50px;
-    height: 875px;
+    height: 1025px;
 }
 
 .aboutMe {
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 .site-title {
-    background-color: white;
-    /* background-color: rgba(248, 245, 245, 0); */
+    /* background-color: white;
+    background-color: rgba(248, 245, 245, 0); */
     /* border: 2px solid white; */
     /* box-shadow: 1px 1px 5px 1px white; */
 }
 
-/* .site-title:before {
-    filter: blur(8px);
-} */
-
 
 .main {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.fab1 {
+    padding: 25px;
 }
 
 .projects {
     background-color: transparent;
-    height: 875px;
+    height: 975px;
     padding-top: 15vh;
 }
 
@@ -51,7 +54,7 @@ body {
     background: url('../images/forest.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 875px;
+    height: 975px;
     
 }
 
@@ -65,7 +68,7 @@ body {
 .name {
     padding-top: 200px;
     color: black;
-    /* font-family: 'Alfa Slab One', cursive; */
+    /* font-family: 'Titillium Web', sans-serif; */
     font-size: 42px;
     font-weight: 500;
 }
@@ -77,8 +80,13 @@ body {
 
 .me {
     padding-bottom: 25px;
-    font-size: 64px;
+    font-size: 84px;
 }
+
+h1 {
+    font-weight: bold;
+}
+
 
 .icon {
     color: black;
@@ -86,7 +94,7 @@ body {
 }
 
 nav {
-    box-shadow: none!  important;
+    /* box-shadow: none!  important; */
 }
 
 nav.nav-center ul {
@@ -99,16 +107,19 @@ nav.nav-center ul li {
 nav.nav-center ul li a {
     display: inline-block;
     color: black;
+    font-size: 24px;
+    padding: 5px;
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 8px 0 0 40px;
 }
 
 .nav-center {
     background-color: white;
+    height: 75px;
 }
 
 .mike {
@@ -126,7 +137,7 @@ nav.nav-center ul li a {
 }
 
 .card-content {
-    font-size: .8em;
+    font-size: 1.3em;
 }
 .card {
     border-radius: 5px! important;
