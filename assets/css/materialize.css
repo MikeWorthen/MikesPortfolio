@@ -13,13 +13,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .container-about {
-    /* max-width: 100%;
-    margin: 0; */
     background-color: rgba(255, 255, 255, 0.808);
     font-size: 24px;
     padding: 50px;
     margin: auto;
     width: 100%;
+
 }
 
 .aboutMe {
@@ -46,8 +45,10 @@ body {
 
 .projects {
     background-color: transparent;
-    height: 845px;
-    padding-top: 15vh;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    margin: auto;
+    width: 100%;
 }
 
 
