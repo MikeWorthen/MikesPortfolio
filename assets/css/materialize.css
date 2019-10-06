@@ -80,11 +80,11 @@ body {
 
 .me {
     padding-bottom: 25px;
-    font-size: 84px;
+    font-size: 96px;
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: bold! important;
 }
 
 
@@ -114,7 +114,7 @@ nav.nav-center ul li a {
 #logo {
     width: 60px;
     height: 60px;
-    margin: 8px 0 0 40px;
+    margin: 8px 0 0 60px;
 }
 
 .nav-center {
@@ -153,9 +153,9 @@ img {
     padding-bottom: 25px;
 }
 
-/* .headline {
-    width: fit-content;
-} */
+a {
+    font-weight: bold;
+}
 
 
 
